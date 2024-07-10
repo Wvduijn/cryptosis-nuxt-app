@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "clean": "rimraf --glob node_modules",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "6.12.0",
+    "nuxt": "3.12.3",
+    "shadcn-nuxt": "0.10.4",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.22.0",
+    "eslint": "9.4.0",
+    "eslint-plugin-format": "^0.1.2",
+    "eslint-plugin-perfectionist": "^2.11.0",
+    "eslint-plugin-tailwindcss": "3.17.4",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.7",
+    "rimraf": "^6.0.0",
+    "typescript": "5.5.3"
+  }
+}
